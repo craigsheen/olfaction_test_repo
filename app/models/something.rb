@@ -6,4 +6,8 @@ class Something < ActiveRecord::Base
   def b
 
   end
+
+  def c
+    'This is to test that the deletion works'
+  end
 end
