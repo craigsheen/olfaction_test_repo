@@ -2,7 +2,6 @@ class Book < ActiveRecord::Base
   belongs_to :author
 
   def author_name
-    a = author
-    a.name
+    author.name
   end
 end
